@@ -1,0 +1,7 @@
+#!/bin/sh
+
+autocutsel -fork
+xrdb "$HOME/.Xresources"
+xsetroot -solid grey
+xrdb $HOME/.Xresources
+startxfce4 &
